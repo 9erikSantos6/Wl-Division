@@ -20,6 +20,12 @@ Você precisa do Python3 para rodar o Wl-Division
 Quick start
 -----------
 
+    $ git clone https://github.com/9erikSantos6/Wl-Division.git   
+
+    $ cd Wl-Division
+
+    $ pip install -r requirements.txt
+    
     $ chmod +x wldivision.py 
 
     $ ./wldivision -h
