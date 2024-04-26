@@ -27,7 +27,7 @@
 import os
 import argparse
 __author__ = "9erikSantos6"
-__license__ = "MIT"
+__license__ = "GNU"
 __version__ = "1.0"
 
 def banner():
