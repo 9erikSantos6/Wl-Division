@@ -226,6 +226,7 @@ def dividir_arquivo(args):
 
                     nome_arquivo_atual = f'{os.path.splitext(os.path.basename(caminho_arquivo_origem))[0]}-division-{i+1}'
                     escrever_novo_arquivo(caminho_arquivo_destino, nome_arquivo_atual, lista_de_palavras)
+                    lista_de_palavras.clear()
 
             print('> \033[05mConcluído!\033[25m\033[1;m')
             return
